@@ -1,0 +1,16 @@
+bayes_opt.ymlname: bayes_opt_3_10
+channels:
+  - conda-forge
+  - https://conda.software.inl.gov/public
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - ipython
+  - ipykernel
+  - scikit-learn
+  - seaborn
+  - pip:
+      - bayesian-optimization
+      - openpyxl

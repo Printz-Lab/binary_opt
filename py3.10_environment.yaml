@@ -1,0 +1,13 @@
+name: rapid_opt
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip:
+      - emukit
+      - pandas
+      - scikit-learn
+      - openpyxl
+      - ipython
+      - ipykernel
+      - seaborn
